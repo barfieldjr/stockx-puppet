@@ -1,5 +1,5 @@
 const scraperObject = {
-    url: 'https://stockx.com/air-jordan-4-retro-lightning-2021',
+    url: 'https://stockx.com/itemendpoint',
     async scraper(browser){
         let page = await browser.newPage();
         console.log(`Navigating to ${this.url}...`);
@@ -12,7 +12,6 @@ const scraperObject = {
         });
         
         browser.close(); //Manipulate the amount of times browser is called. Close when want to terminate program
-        console.log( data);
         return data;
     }
 }

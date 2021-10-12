@@ -1,0 +1,22 @@
+{
+  "name": "scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "cheerio": "^1.0.0-rc.10",
+    "jsdom": "^18.0.0",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.6.5",
+    "nodemon": "^2.0.13",
+    "puppeteer": "^10.4.0",
+    "request": "^2.88.2"
+  }
+}
